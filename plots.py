@@ -435,3 +435,232 @@ def plot_PolicyCombinations(δ, ρ, γ, rh, rl, rmin,
                              ax=ax[1])
     ax[1].set_title("safe policy")
 
+
+
+
+def plot_PolicyCombinations_withUncertainty(δ, ρ, γ, rh, rl, rmin, 
+                                            xaxis="δ", yaxis="γ",
+                                            plotprec=101, uprec=11,
+                                            policy=None, ax=None):
+    """aux function to plot the paradigm combinations."""
+
+    def get_linspace(param, name):
+
+        if name == xaxis or name == yaxis:
+            assert param[0] != param[1], "Parameters and Axis not consistent"
+            plinspace = np.linspace(param[0], param[1], plotprec)
+        else:
+            if param[0] == param[1]:
+                plinspace = param[0]
+            else:
+                plinspace = np.linspace(param[0], param[1], uprec)
+
+        return plinspace
+
+    params = {"δ": δ, "ρ": ρ, "γ": γ, "rh": rh, "rl": rl, "rmin": rmin}
+    paramsl = {name: get_linspace(params[name], name) for name in params}
+
+    PARAMS = np.meshgrid(paramsl["δ"], paramsl["ρ"], paramsl["γ"],
+                         paramsl["rh"], paramsl["rl"], indexing="ij")
+
+    vpp1 = lamb_vpp1(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vpp2 = lamb_vpp2(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vdp1 = lamb_vdp1(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vdp2 = lamb_vdp2(*PARAMS)[:,:,:,:,:,np.newaxis]
+
+    if type(paramsl["rmin"]) == float:
+        rmin = paramsl["rmin"]
+    else:
+        rmin = paramsl["rmin"][np.newaxis, np.newaxis, np.newaxis, np.newaxis,
+                               np.newaxis, :]
+
+    rminsize = 1 if type(rmin) == float else len(rmin)
+    ones = np.ones(PARAMS[0].shape + (rminsize,))
+
+    p_p1_accept = ((vpp1 >= rmin)).astype(int)
+    d_p1_accept = ((vdp1 >= rmin)).astype(int)
+    p_p2_accept = ((vpp2*ones >= rmin)).astype(int)
+
+    p1_sus = p_p1_accept * d_p1_accept  # only when both states are accept
+    p2_sus = p_p2_accept  # only prosperous counts for policy 2
+
+    p1_opt = (vpp1 > vpp2).astype(int)
+    p2_opt = (vpp2 > vpp1).astype(int)
+
+    p1_SOS = 0 * ones
+    p2_SOS = ones
+
+    xpos = np.where(np.array(list(params.keys())) == xaxis)[0][0]
+    ypos = np.where(np.array(list(params.keys())) == yaxis)[0][0]
+    otherpos = tuple(set(range(6)) - set((xpos, ypos)))
+    print(otherpos)
+
+    #create imshow arrays
+    cv = 200/255.
+    p1data = np.zeros((plotprec, plotprec, 3))
+    p1data[:, :, 0] = p1_opt.mean(axis=otherpos) * cv
+    p1data[:, :, 1] = p1_SOS.mean(axis=otherpos) * cv
+    p1data[:, :, 2] = p1_sus.mean(axis=otherpos) * cv
+
+    p2data = np.zeros((plotprec, plotprec, 3))
+    p2data[:, :, 0] = p2_opt.mean(axis=otherpos) * cv
+    p2data[:, :, 1] = p2_SOS.mean(axis=otherpos) * cv
+    p2data[:, :, 2] = p2_sus.mean(axis=otherpos) * cv
+    
+    if xpos < ypos:
+        print("swapping axes")
+        p1data = p1data.swapaxes(0, 1)
+        p2data = p2data.swapaxes(0, 1)
+
+
+    ext = [params[xaxis][0],params[xaxis][1],
+           params[yaxis][0],params[yaxis][1]]
+    
+    # ------------------------------------------------------------
+    #     Plotting
+    # ------------------------------------------------------------
+    if policy == None:
+        fig, ax = plt.subplots(1, 2, sharey='row', figsize=(6.5, 3))
+
+        ax[0].imshow(p1data, origin="lower",
+                     interpolation='none', aspect="auto",
+                     extent=ext)
+        ax[1].imshow(p2data, origin="lower",
+                     interpolation='none', aspect="auto",
+                     extent=ext)
+
+        ax[0].set_ylabel(yaxis)
+        ax[0].set_xlabel(xaxis)
+        ax[1].set_xlabel(xaxis)
+        
+    else:
+        if ax is None:
+            fig, ax = plt.subplots()
+        
+        data = p1data if policy == "risky" else p2data
+        
+        ax.imshow(data, origin="lower",
+                  interpolation='none', aspect="auto",
+                  extent=ext)
+        ax.set_xlabel(xaxis)
+        ax.set_ylabel(yaxis)
+
+
+
+def plot_ParadigmVolumes(prec = 31, ax=None):
+
+    δ = (0, 1.0)
+    ρ = (0, 1.0)
+    γ = (0.0, 0.9999)
+
+    rl = (0.0, 1.0)
+    rmin = (0.0, 1.0)
+
+
+    params = {"δ": δ, "ρ": ρ, "γ": γ, #"rh": rh,
+              "rl": rl, "rmin": rmin}
+
+    paramsl = {name: np.linspace(params[name][0], params[name][1], prec)
+               for name in params}
+
+    PARAMS = np.meshgrid(paramsl["δ"], paramsl["ρ"], paramsl["γ"],
+                         1.0, paramsl["rl"], indexing="ij")
+
+    vpp1 = lamb_vpp1(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vpp2 = lamb_vpp2(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vdp1 = lamb_vdp1(*PARAMS)[:,:,:,:,:,np.newaxis]
+    vdp2 = lamb_vdp2(*PARAMS)[:,:,:,:,:,np.newaxis]
+
+    rmin = paramsl["rmin"][np.newaxis, np.newaxis, np.newaxis,
+                           np.newaxis,np.newaxis,  :]
+
+    ones = np.ones(PARAMS[0].shape + (prec,))
+
+    p_p1_accept = ((vpp1 >= rmin)).astype(int)
+    d_p1_accept = ((vdp1 >= rmin)).astype(int)
+    p_p2_accept = ((vpp2*ones >= rmin)).astype(int)
+
+    p1_sus = p_p1_accept * d_p1_accept  # only when both states are accept
+    p2_sus = p_p2_accept  # only prosperous counts for policy 2
+
+    p1_opt = (vpp1 > vpp2).astype(int)
+    p2_opt = (vpp2 > vpp1).astype(int)
+
+    p1_SOS = 0 * ones
+    p2_SOS = ones
+
+    pol1 = 4*p1_opt + 2*p1_sus + p1_SOS
+    pol2 = 4*p2_opt + 2*p2_sus + p2_SOS
+
+    h1 = np.histogram(pol1.flatten(), bins=[0,1,2,3,4,5,6,7,8])[0]
+    h2 = np.histogram(pol2.flatten(), bins=[0,1,2,3,4,5,6,7,8])[0]
+
+        # policiy combinations: opt, sus, SOS
+        # 0 = non opt, non sus, non SOS
+        # 1 = non opt, non sus, SOS
+        # 2 = non opt, sus, non SOS
+        # 3 = non opt, sus, SOS
+        # 4 = opt, non sus, non SOS
+        # 5 = opt, non sus, SOS
+        # 6 = opt, sus, non SOS
+        # 7 = opt, sus, SOS
+
+    sizes = {"non opt, non sus, non SOS": h1[0] + h2[0],
+             "non opt, non sus, SOS"    : h1[1] + h2[1],
+             "non opt, sus, non SOS"    : h1[2] + h2[2],
+             "non opt, sus, SOS"        : h1[3] + h2[3],
+             "opt, non sus, non SOS"    : h1[4] + h2[4],
+             "opt, non sus, SOS"        : h1[5] + h2[5],
+             "opt, sus, non SOS"        : h1[6] + h2[6],
+             "opt, sus, SOS"            : h1[7] + h2[7]}
+
+    cv = 200/255.
+    colors = {"non opt, non sus, non SOS": (0., 0., 0.),
+              "non opt, non sus, SOS"    : (0., cv, 0.),
+              "non opt, sus, non SOS"    : (0., 0., cv),
+              "non opt, sus, SOS"        : (0., cv, cv),
+              "opt, non sus, non SOS"    : (cv, 0., 0.),
+              "opt, non sus, SOS"        : (cv, cv, 0.),
+              "opt, sus, non SOS"        : (cv, 0., cv),
+              "opt, sus, SOS"            : (cv, cv, cv)}
+
+
+    keylist = ["opt, non sus, non SOS", "non opt, sus, non SOS",
+               "non opt, non sus, SOS",
+               "opt, sus, non SOS", "opt, non sus, SOS", "non opt, sus, SOS",
+               "opt, sus, SOS", "non opt, non sus, non SOS"]
+    sizeslist = np.array([sizes[k] for k in keylist])
+    sizeslist = sizeslist / np.sum(sizeslist)
+    colorslist = [colors[k] for k in keylist]
+
+    poslist = [9,8,7,5.5,4.5,3.5,2,1]
+
+
+    if ax is None:
+        fig, ax = plt.subplots()
+    ax.barh(poslist, sizeslist, height=0.9, color=colorslist)
+
+    colors2 = ["w", "k", "k",
+               "k", "k", "k",
+               "k", "w"]
+    labels = ["opt, not sus, not safe", "sus, not opt, not safe",
+              "safe, not opt, not sus",
+              "opt, sus, not safe", "opt, safe, not sus", "sus, safe, not opt",
+              "opt, sus, safe", "not opt, not sus, not safe"]
+    hapos = ["right", "left", "right",
+             "left", "left", "left",
+             "right", "right"]
+    leftpos = [sizeslist[0], sizeslist[1], sizeslist[2],
+               sizeslist[3], sizeslist[4], sizeslist[5],
+               sizeslist[6], sizeslist[7]]
+
+    for i in range(len(keylist)):
+        ax.annotate(" " + labels[i] + " ", (leftpos[i], poslist[i]),
+                    xycoords="data", ha=hapos[i], va="center",
+                    color=colors2[i], fontsize=11.5)
+
+    ax.spines['right'].set_visible(False)
+    ax.spines['top'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.set_yticks([])
+    ax.set_xlabel("Normalized parameter space volume of paradigms combinations")

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200.41762mm"
+   height="195.65512mm"
+   viewBox="0 0 710.14115 693.26618"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="Paradigms_Legend_Sparse.svg"
+   inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/ParadigmsCode/figs/Paradigms_Legend_Sparse.png"
+   inkscape:export-xdpi="900"
+   inkscape:export-ydpi="900">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-24.480532"
+     inkscape:cy="313.37829"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     borderlayer="true">
+    <sodipodi:guide
+       position="675.26346,468.6747"
+       orientation="1,0"
+       id="guide4320"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="205.54254,681.81688"
+       orientation="0,1"
+       id="guide4626"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="black ground"
+     style="display:inline"
+     transform="translate(33.337006,6.5747681)">
+    <ellipse
+       style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.46300316;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:25.38900872, 8.46300291;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4235"
+       cx="321.73358"
+       cy="340.05832"
+       rx="355.07059"
+       ry="346.63309"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none"
+     transform="translate(-24.772216,-82.278183)"
+     sodipodi:insensitive="true">
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.34509804;fill-rule:nonzero;stroke:#ffffff;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4136-7-3"
+       cx="378.37238"
+       cy="308.91339"
+       rx="217.1828"
+       ry="211.12189" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.34509804;fill-rule:nonzero;stroke:#ffffff;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4136-7-3-5"
+       cx="479.82248"
+       cy="484.69708"
+       rx="217.1828"
+       ry="211.12189" />
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:0.34509804;fill-rule:nonzero;stroke:#ffffff;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4136-7-3-5-6"
+       cx="277.79202"
+       cy="483.64633"
+       rx="217.1828"
+       ry="211.12189" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(-24.772216,-82.278183)"
+     sodipodi:insensitive="true">
+    <path
+       style="opacity:1;fill:#c800c8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 496.94316,466.05531 c -1.63005,-26.25091 -8.70297,-51.08418 -21.99158,-77.21323 -17.25439,-33.92686 -41.87517,-61.52371 -73.24394,-82.09741 -6.67857,-4.38025 -12.68406,-8.42741 -13.34554,-8.9937 -1.7594,-1.5062 20.16377,-9.62943 38.61073,-14.30649 50.14117,-12.71285 102.88316,-7.0331 150.09196,16.16329 l 14.64285,7.19488 -0.006,10.87633 c -0.0181,34.29164 -14.87482,77.82723 -37.27009,109.21515 -11.06783,15.51204 -29.8361,34.87755 -44.27994,45.68903 -5.96281,4.46325 -11.16952,8.11501 -11.57047,8.11501 -0.40096,0 -1.13818,-6.58929 -1.63827,-14.64286 z"
+       id="path4342"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#c80000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 441.70764,689.32913 c -21.23357,-3.88396 -55.71428,-15.52325 -55.71428,-18.80687 0,-0.68896 0.5725,-1.25266 1.27223,-1.25266 2.52076,0 26.82047,-16.9526 37.63355,-26.2549 40.70896,-35.02119 68.40875,-89.09569 72.02998,-140.6142 l 0.93469,-13.29766 6.56477,-4.43917 c 11.48444,-7.76591 29.62445,-23.59633 38.86279,-33.91479 31.14162,-34.78256 48.11692,-72.46425 53.92486,-119.70206 l 2.36581,-19.24194 12.84852,9.95776 c 41.75623,32.36158 69.91098,78.61301 78.42308,128.83012 2.87789,16.97808 2.96496,49.3988 0.17882,66.57658 -7.65796,47.21449 -33.1974,92.31613 -69.83419,123.32443 -28.29618,23.94904 -58.09991,38.69236 -95.9192,47.4493 -19.18536,4.44231 -62.89926,5.16731 -83.57143,1.38606 z"
+       id="path4344"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#c8c800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 367.9651,661.8408 c -16.0407,-9.63307 -30.40071,-21.27819 -44.96902,-36.46722 -32.49885,-33.88355 -51.39489,-74.86556 -56.32879,-122.16676 l -1.00493,-9.6342 14.80836,7.04788 c 62.44221,29.71874 132.75141,29.96788 193.95474,0.68728 8.95908,-4.28616 16.53598,-7.54628 16.83757,-7.24471 0.30157,0.30158 -0.1815,6.57856 -1.07349,13.94885 -7.8419,64.79597 -46.592,121.91191 -105.79586,155.93844 l -6.59969,3.79307 z"
+       id="path4346"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#c8c8c8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 345.27907,514.33487 c -23.86458,-3.74803 -44.77913,-10.60473 -68.07665,-22.3185 l -11.62588,-5.84537 0.8293,-14.52213 c 3.759,-65.82547 42.54757,-128.98912 100.37101,-163.44506 l 12.57692,-7.49435 7.96265,4.44806 c 14.44228,8.06769 29.92902,20.10246 43.74172,33.99174 36.64199,36.84513 57.07665,81.7732 60.16723,132.2849 l 0.87766,14.3442 -15.32303,7.5415 c -32.77384,16.13021 -63.28486,23.19341 -99.14289,22.95125 -11.51121,-0.0777 -26.07232,-0.94904 -32.35804,-1.93624 z"
+       id="path4348"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#00c8c8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 247.42193,473.05844 c -47.694,-35.4412 -78.87802,-92.42743 -82.32975,-150.45081 l -0.9487,-15.94769 16.28208,-7.92186 c 32.12581,-15.63045 53.10826,-20.77226 89.34735,-21.89487 36.30849,-1.12476 58.73359,2.57722 89.77238,14.81978 l 13.34187,5.26241 -10.08913,6.22036 c -58.82477,36.26789 -98.1682,99.46093 -102.30147,164.31562 l -0.93177,14.62036 z"
+       id="path4350"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#00c800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 258.13621,690.62111 C 184.39151,684.32058 117.99177,639.52523 85.284955,574.01018 54.675118,512.69561 57.448135,438.04152 92.497125,379.84695 102.11869,363.87151 115.24236,347.39821 127.975,335.31381 c 10.61783,-10.07725 27.23834,-23.18707 29.39635,-23.18707 0.58503,0 1.42413,6.26786 1.86468,13.92857 2.66545,46.34963 25.01235,95.1805 59.61046,130.25656 11.13052,11.28429 30.68787,27.35991 38.00458,31.23879 2.61534,1.38648 3.1054,3.29544 3.81709,14.86911 3.86124,62.79191 41.19613,124.19726 97.92165,161.05346 l 11.76942,7.64693 -5.84434,2.61658 c -18.97062,8.4934 -44.61403,14.79482 -68.98765,16.95249 -17.43007,1.543 -18.55781,1.54094 -37.39103,-0.0681 v 3e-5 z"
+       id="path4352"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#0000c8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.90000129;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 165.2209,289.61808 c 9.45775,-92.30743 78.56905,-166.33377 172.58994,-184.86415 12.53929,-2.47134 21.1837,-3.16932 39.61109,-3.19837 24.92207,-0.0393 36.53451,1.39478 58.57143,7.23319 78.78685,20.87364 140.00787,87.14803 153.42548,166.08973 2.05117,12.06796 2.99433,24.39112 1.86677,24.39112 -0.23211,0 -6.17854,-2.81753 -13.21428,-6.26117 -15.79143,-7.72913 -34.6458,-14.1257 -53.86507,-18.27437 -19.85945,-4.28686 -66.64925,-4.70455 -85.35576,-0.76196 -16.21686,3.41787 -37.57804,10.04461 -49.22871,15.27193 l -9.49198,4.25875 -13.13965,-5.60182 c -30.14469,-12.85158 -54.85835,-17.75865 -89.56823,-17.78442 -20.21652,-0.015 -28.07658,0.59409 -41.07915,3.1833 -20.83298,4.14849 -38.88449,10.09822 -57.30063,18.88613 l -14.80836,7.06633 z"
+       id="path4354"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     transform="translate(-24.772216,-82.278183)"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="178.82498"
+       y="521.24225"
+       id="text4375-7"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="178.82498"
+         y="521.24225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4587">safe,</tspan><tspan
+         sodipodi:role="line"
+         x="178.82498"
+         y="564.99225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4604">not opt,</tspan><tspan
+         sodipodi:role="line"
+         x="178.82498"
+         y="608.74225"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4606">not sus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="382.73221"
+       y="414.23474"
+       id="text4375-7-8"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="382.73221"
+         y="414.23474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4379-6-9">opt, sus,</tspan><tspan
+         sodipodi:role="line"
+         x="388.3035"
+         y="457.98474"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4439-6">safe </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="174.54211"
+       y="326.03384"
+       id="text4375-7-87"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="174.54211"
+         y="326.03384"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#282828;fill-opacity:1"
+         id="tspan4245">sus, safe,</tspan><tspan
+         sodipodi:role="line"
+         x="174.54211"
+         y="369.78384"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#282828;fill-opacity:1"
+         id="tspan4574"> not</tspan><tspan
+         sodipodi:role="line"
+         x="174.54211"
+         y="413.53384"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#282828;fill-opacity:1"
+         id="tspan4570">   opt</tspan><tspan
+         sodipodi:role="line"
+         x="174.54211"
+         y="457.28384"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:start;text-anchor:start;fill:#282828;fill-opacity:1"
+         id="tspan4502"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#0f0f0f;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="502.60938"
+       y="325.69055"
+       id="text4375-7-87-3"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="502.60938"
+         y="325.69055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#0f0f0f;fill-opacity:1"
+         id="tspan4379-6-90-7">opt, sus</tspan><tspan
+         sodipodi:role="line"
+         x="502.60938"
+         y="369.44055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#0f0f0f;fill-opacity:1"
+         id="tspan4576">  not,</tspan><tspan
+         sodipodi:role="line"
+         x="502.60938"
+         y="413.19055"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#0f0f0f;fill-opacity:1"
+         id="tspan4247">    safe</tspan><tspan
+         sodipodi:role="line"
+         x="502.60938"
+         y="435.06555"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#0f0f0f;fill-opacity:1"
+         id="tspan4502-6" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="378.61664"
+       y="560.01843"
+       id="text4375-7-8-5"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="378.61664"
+         y="560.01843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4557">opt, safe,</tspan><tspan
+         sodipodi:role="line"
+         x="378.61664"
+         y="603.76843"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4588">not sus</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#d3d3d3;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="378.94934"
+       y="186.9021"
+       id="text4375-7-879"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="378.94934"
+         y="186.9021"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#d3d3d3;fill-opacity:1"
+         id="tspan4379-6-6">sus, not opt,</tspan><tspan
+         sodipodi:role="line"
+         x="378.94934"
+         y="230.6521"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#d3d3d3;fill-opacity:1"
+         id="tspan4568">not safe</tspan><tspan
+         sodipodi:role="line"
+         x="378.94934"
+         y="246.55249"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#d3d3d3;fill-opacity:1"
+         id="tspan4439-1" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="575.38422"
+       y="516.15051"
+       id="text4375-7-0"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="580.95551"
+         y="516.15051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4587-0">opt, </tspan><tspan
+         sodipodi:role="line"
+         x="575.38422"
+         y="559.90051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4597">not sus,</tspan><tspan
+         sodipodi:role="line"
+         x="575.38422"
+         y="603.65051"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#282828;fill-opacity:1"
+         id="tspan4595">not safe</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;line-height:0%;font-family:'Akiza Sans';-inkscape-font-specification:'Akiza Sans, Light';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="378.94183"
+       y="720.52014"
+       id="text4375-7-879-2"
+       inkscape:export-filename="/home/wbarfuss/Drive/2_Work/1_Projects/01_Paradigms/OverleafDoc/figs/Paradigms_Legend_Sparse.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         x="378.94183"
+         y="720.52014"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         id="tspan4379-6-6-4">not opt, not sus,</tspan><tspan
+         sodipodi:role="line"
+         x="384.51312"
+         y="764.27014"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1"
+         id="tspan4439-1-9">not safe </tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4610"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.93750001,0,0,0.93750001,-40.406101,82.278183)"><flowRegion
+         id="flowRegion4612"><rect
+           id="rect4614"
+           width="42.426407"
+           height="70.710678"
+           x="-1.4142135"
+           y="137.72865" /></flowRegion><flowPara
+         id="flowPara4616"></flowPara></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer 4"
+     transform="translate(-24.772216,-82.278183)"
+     style="display:inline"
+     sodipodi:insensitive="true" />
+</svg>
