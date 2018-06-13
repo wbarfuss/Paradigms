@@ -1,4 +1,4 @@
-# Code Repository for paper "When optimization is neither safe nor sustainable"
+# Paradigms Code Repository
 
 ## How to use it
 
